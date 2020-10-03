@@ -12,11 +12,14 @@ $(document).ready(function(){
       $(".description3").toggle();
   });
 });
-
-// $(document).ready(function() {
-//   $(".design, .call").click(function() {
-//     $("#design").toggle();
-//     $(".call").toggle();
-//   });
-// });
-//
+$(document).ready(function(){
+  $("#submit").click(function(){
+    var Name= $(".name").val();
+    var Email=$(".email").val();
+    var Message=$("#message").val();
+    if(Name!=" " && Email!=" " && Message!=" "){
+      alert("Hi "+ Name + "! Thank you for reaching out to us.")
+    }
+    
+  })
+});

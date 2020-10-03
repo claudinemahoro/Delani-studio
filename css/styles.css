@@ -95,5 +95,6 @@ footer p{
   text-align: center;
 }
 .description1, .description2, .description3{
+  text-align: center;
   display: none;
 }
