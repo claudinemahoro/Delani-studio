@@ -17,7 +17,10 @@ $(document).ready(function(){
     var Name= $(".name").val();
     var Email=$(".email").val();
     var Message=$("#message").val();
-    if(Name!=" " && Email!=" " && Message!=" "){
+    if(Name=="" || Email=="" || Message==""){
+      alert("No name or email or message. Please fill all fields before sending.") 
+    }
+    else{
       alert("Hi "+ Name + "! Thank you for reaching out to us.")
     }
     
