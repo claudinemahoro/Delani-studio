@@ -74,9 +74,8 @@ h4{
 }
 #message,.name,.email{
   background-color: transparent;
-  border-color: grey;
   color: white;
-  border-style: solid;
+  border:1px white solid;
   border-radius: 3px;
 }
 #submit{
@@ -85,4 +84,13 @@ h4{
 }
 ::placeholder{
   color: white;
+}
+#footerow{
+  display: flex;
+  justify-content:center;
+  padding-right: 70px;
+  padding-left: 70px;
+}
+footer p{
+  text-align: center;
 }
