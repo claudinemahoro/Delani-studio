@@ -58,3 +58,31 @@ h4{
 .myForm{
   background-color: none;
 }
+#row1{
+  display: flex;
+  justify-content: center;
+}
+.name{
+  margin-right: 80px;
+}
+.email{
+  margin-left: 80px;
+}
+#row2{
+  display: flex;
+  justify-content: space-around;
+}
+#message,.name,.email{
+  background-color: transparent;
+  border-color: grey;
+  color: white;
+  border-style: solid;
+  border-radius: 3px;
+}
+#submit{
+  background-color: grey;
+  color: White;
+}
+::placeholder{
+  color: white;
+}
