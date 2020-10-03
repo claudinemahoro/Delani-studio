@@ -94,3 +94,6 @@ h4{
 footer p{
   text-align: center;
 }
+.description1, .description2, .description3{
+  display: none;
+}
