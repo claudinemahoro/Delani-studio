@@ -19,6 +19,6 @@ It is a website that describes what Delani studio does, services they provide, t
 * For the portfolio when hovering over the images, their titles are displayed
 * For Contact us section, the user enters the name, email and message then send. If one of those three in not entered, an alert is displayed to remind him/her to enter everything, otherwise an alert for thanking him/her for reaching out to them is displayed. 
 ## Live link:
-
+https://claudinemahoro.github.io/Delani-studio/
 ## License:
 MIT LICENSE © 2020 Claudine Mahoro
