@@ -98,3 +98,17 @@ footer p{
   text-align: center;
   display: none;
 }
+#porto1, #porto2, #porto3, #porto4, #porto5, #porto6, #porto7, #porto8{
+  text-transform: uppercase;
+  /* position: absolute; */
+  transform: translate(-50%,-50%);
+  color: black;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  right: 20%;
+  padding: 0;
+  margin-left: 50%;
+  font-size: 25px;
+  font-weight: bold;
+}
